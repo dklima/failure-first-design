@@ -10,6 +10,12 @@ Scripts e templates do artigo "Pare de Desenhar Arquitetura. Comece a Desenhar F
 - **http_with_timeout.rb** - Requisições HTTP com timeouts configurados corretamente
 - **health_controller.rb** - Controller Rails com health checks liveness/readiness
 
+### Python
+
+- **retry_with_backoff.py** - Equivalente Python do retry com backoff e jitter
+- **http_with_timeout.py** - Requisições HTTP com timeouts via `requests`
+- **health_controller.py** - Blueprint Flask com health checks liveness/readiness
+
 ### Chaos Engineering (Bash)
 
 - **chaos_network.sh** - Simulação de problemas de rede com tc (traffic control)
